@@ -22,3 +22,7 @@ gcc lex.yy.c y.tab.c -o calc -lm
 ```
 ./calc
 ```
+
+## Authors
+
+NUDT homework by LSF (^_^)
