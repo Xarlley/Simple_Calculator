@@ -7,6 +7,8 @@ int yylex(void);
 %}
 
 %token NUMBER PLUS MINUS MULTIPLY DIVIDE LPAREN RPAREN
+%left PLUS MINUS  // 加法和减法的优先级
+%left MULTIPLY DIVIDE  // 乘法和除法的优先级
 
 %%
 
